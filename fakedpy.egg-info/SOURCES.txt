@@ -1,0 +1,9 @@
+README.md
+setup.py
+fakedpy/__init__.py
+fakedpy/generate.py
+fakedpy.egg-info/PKG-INFO
+fakedpy.egg-info/SOURCES.txt
+fakedpy.egg-info/dependency_links.txt
+fakedpy.egg-info/requires.txt
+fakedpy.egg-info/top_level.txt
