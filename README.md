@@ -22,6 +22,19 @@ from fakedpy import faked
 print(faked(5, ["name", "address"]))
 ```
 
+## Fake data
+```python
+- "name" = Name
+- "address" = Address
+- "job" = Job
+- "email" = Email
+- "phone_number" = Phone Number
+- "company" = Company
+- "text" = Text
+- "date_of_birth" = Date of Birth
+
+```
+
 ### Author
 - Name : Arya Wiratama
 - Email : <a href="mailto:aryawiratama2401@gmail.com">aryawiratama2401@gmail.com</a>
