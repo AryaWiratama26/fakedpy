@@ -8,11 +8,6 @@ fakedpy is A simple fake data generator that exports results to CSV
 ```bash
 pip install fakedpy
 ```
-Or
-
-```bash
-pip install git+https://github.com/AryaWiratama26/fakedpy.git
-```
 
 ## Example
 
