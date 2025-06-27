@@ -1,3 +1,3 @@
-from fakedpy import faked
-
-print(faked(5, ["name", "address"]))
+from fakedpy import FakedGenerator
+generator = FakedGenerator()
+df = generator.generate(rows=5, fields=["name", "email", "job", "phone_number", "date_of_birth", "ssn", "gender", "address", "street_address", "city", "state", "country", "postcode", "username", "password", "domain_name", "url", "ipv4", "ipv6", "company", "company_email", "job", "job_title", "credit_card_number", "credit_card_expire", "credit_card_provider", "currency", "iban", "text", "color", "license_plate", "user_agent", "timezone"])
