@@ -1,1 +1,1 @@
-from .generate import faked
+from .generate import FakedGenerator

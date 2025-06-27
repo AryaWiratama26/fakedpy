@@ -5,16 +5,17 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name="fakedpy",
-    version="1.2",
+    version="1.3",
     packages=find_packages(),
     package_data={"fakedpy": ["*.py"]},
     install_requires=[
         'pandas',
         'faker'
     ],
-    description="A simple fake data generator that exports results to CSV",
+    description="A Python library for generating fake data with various output formats.",
     long_description=long_des,
     long_description_content_type="text/markdown",
-    author="aryawiratama2401@gmail.com",
+    author="Arya Wiratama",
+    author_email= "aryawiratama2401@gmail.com",
     python_requires='>=3.10'
 )
