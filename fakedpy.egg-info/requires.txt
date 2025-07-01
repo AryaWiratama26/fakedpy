@@ -1,2 +1,4 @@
 faker
+openpyxl
 pandas
+pyarrow
