@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name="fakedpy",
-    version="1.4",
+    version="1.5",
     packages=find_packages(),
     package_data={"fakedpy": ["*.py"]},
     install_requires=[

@@ -8,3 +8,5 @@ fakedpy.egg-info/SOURCES.txt
 fakedpy.egg-info/dependency_links.txt
 fakedpy.egg-info/requires.txt
 fakedpy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_fakedpy.py
