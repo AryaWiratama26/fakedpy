@@ -2,3 +2,4 @@ __pycache__/
 test_all_parameters.py
 testing/
 *.sh
+output.csv

@@ -98,6 +98,13 @@ class FakedGenerator:
         pd.DataFrame
             Generated fake data
         """
+        if rows < 0:
+            raise ValueError("Number of rows must be non-negative")
+        
+        valid_formats = ["csv", "json", "excel", "parquet"]
+        if output_format not in valid_formats:
+            raise ValueError(f"Invalid output format. Must be one of: {valid_formats}")
+        
         fake_dict = self._get_fake_dict()
         data = []
         
